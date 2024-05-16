@@ -14673,6 +14673,136 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">train_df</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>  Experimentation Academic_Performance_Decline Social_Isolation  \
+0             Yes                          Yes              Yes   
+1              No                           No              Yes   
+2              No                           No               No   
+3             Yes                           No              Yes   
+4              No                           No               No   
+
+  Financial_Issues Physical_Mental_Health_Problems Legal_Consequences  \
+0               No                             Yes                 No   
+1               No                              No                Yes   
+2              Yes                              No                Yes   
+3               No                             Yes                Yes   
+4               No                             Yes                 No   
+
+  Relationship_Strain Risk_Taking_Behavior Withdrawal_Symptoms  \
+0                  No                   No                 Yes   
+1                  No                  Yes                  No   
+2                  No                   No                 Yes   
+3                  No                  Yes                  No   
+4                  No                   No                  No   
+
+  Denial_and_Resistance_to_Treatment Addiction_Class  
+0                                 No              No  
+1                                 No              No  
+2                                 No              No  
+3                                Yes             Yes  
+4                                Yes              No  
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">test_df</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>  Experimentation Academic_Performance_Decline Social_Isolation  \
+0             Yes                          Yes              Yes   
+1              No                           No              Yes   
+2              No                           No               No   
+3             Yes                           No              Yes   
+4              No                           No               No   
+
+  Financial_Issues Physical_Mental_Health_Problems Legal_Consequences  \
+0               No                             Yes                 No   
+1               No                              No                Yes   
+2              Yes                              No                Yes   
+3               No                             Yes                Yes   
+4               No                             Yes                 No   
+
+  Relationship_Strain Risk_Taking_Behavior Withdrawal_Symptoms  \
+0                  No                   No                 Yes   
+1                  No                  Yes                  No   
+2                  No                   No                 Yes   
+3                  No                  Yes                  No   
+4                  No                   No                  No   
+
+  Denial_and_Resistance_to_Treatment Addiction_Class  
+0                                 No              No  
+1                                 No              No  
+2                                 No              No  
+3                                Yes             Yes  
+4                                Yes              No  
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15032,7 +15162,7 @@ dtype: int64</pre>
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<style>#sk-container-id-29 {
+<style>#sk-container-id-39 {
   /* Definition of color scheme common for light and dark mode */
   --sklearn-color-text: black;
   --sklearn-color-line: gray;
@@ -15062,15 +15192,15 @@ dtype: int64</pre>
   }
 }
 
-#sk-container-id-29 {
+#sk-container-id-39 {
   color: var(--sklearn-color-text);
 }
 
-#sk-container-id-29 pre {
+#sk-container-id-39 pre {
   padding: 0;
 }
 
-#sk-container-id-29 input.sk-hidden--visually {
+#sk-container-id-39 input.sk-hidden--visually {
   border: 0;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
@@ -15082,7 +15212,7 @@ dtype: int64</pre>
   width: 1px;
 }
 
-#sk-container-id-29 div.sk-dashed-wrapped {
+#sk-container-id-39 div.sk-dashed-wrapped {
   border: 1px dashed var(--sklearn-color-line);
   margin: 0 0.4em 0.5em 0.4em;
   box-sizing: border-box;
@@ -15090,7 +15220,7 @@ dtype: int64</pre>
   background-color: var(--sklearn-color-background);
 }
 
-#sk-container-id-29 div.sk-container {
+#sk-container-id-39 div.sk-container {
   /* jupyter's `normalize.less` sets `[hidden] { display: none; }`
      but bootstrap.min.css set `[hidden] { display: none !important; }`
      so we also need the `!important` here to be able to override the
@@ -15100,7 +15230,7 @@ dtype: int64</pre>
   position: relative;
 }
 
-#sk-container-id-29 div.sk-text-repr-fallback {
+#sk-container-id-39 div.sk-text-repr-fallback {
   display: none;
 }
 
@@ -15116,14 +15246,14 @@ div.sk-item {
 
 /* Parallel-specific style estimator block */
 
-#sk-container-id-29 div.sk-parallel-item::after {
+#sk-container-id-39 div.sk-parallel-item::after {
   content: "";
   width: 100%;
   border-bottom: 2px solid var(--sklearn-color-text-on-default-background);
   flex-grow: 1;
 }
 
-#sk-container-id-29 div.sk-parallel {
+#sk-container-id-39 div.sk-parallel {
   display: flex;
   align-items: stretch;
   justify-content: center;
@@ -15131,28 +15261,28 @@ div.sk-item {
   position: relative;
 }
 
-#sk-container-id-29 div.sk-parallel-item {
+#sk-container-id-39 div.sk-parallel-item {
   display: flex;
   flex-direction: column;
 }
 
-#sk-container-id-29 div.sk-parallel-item:first-child::after {
+#sk-container-id-39 div.sk-parallel-item:first-child::after {
   align-self: flex-end;
   width: 50%;
 }
 
-#sk-container-id-29 div.sk-parallel-item:last-child::after {
+#sk-container-id-39 div.sk-parallel-item:last-child::after {
   align-self: flex-start;
   width: 50%;
 }
 
-#sk-container-id-29 div.sk-parallel-item:only-child::after {
+#sk-container-id-39 div.sk-parallel-item:only-child::after {
   width: 0;
 }
 
 /* Serial-specific style estimator block */
 
-#sk-container-id-29 div.sk-serial {
+#sk-container-id-39 div.sk-serial {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15170,14 +15300,14 @@ clickable and can be expanded/collapsed.
 
 /* Pipeline and ColumnTransformer style (default) */
 
-#sk-container-id-29 div.sk-toggleable {
+#sk-container-id-39 div.sk-toggleable {
   /* Default theme specific background. It is overwritten whether we have a
   specific estimator or a Pipeline/ColumnTransformer */
   background-color: var(--sklearn-color-background);
 }
 
 /* Toggleable label */
-#sk-container-id-29 label.sk-toggleable__label {
+#sk-container-id-39 label.sk-toggleable__label {
   cursor: pointer;
   display: block;
   width: 100%;
@@ -15187,7 +15317,7 @@ clickable and can be expanded/collapsed.
   text-align: center;
 }
 
-#sk-container-id-29 label.sk-toggleable__label-arrow:before {
+#sk-container-id-39 label.sk-toggleable__label-arrow:before {
   /* Arrow on the left of the label */
   content: "▸";
   float: left;
@@ -15195,13 +15325,13 @@ clickable and can be expanded/collapsed.
   color: var(--sklearn-color-icon);
 }
 
-#sk-container-id-29 label.sk-toggleable__label-arrow:hover:before {
+#sk-container-id-39 label.sk-toggleable__label-arrow:hover:before {
   color: var(--sklearn-color-text);
 }
 
 /* Toggleable content - dropdown */
 
-#sk-container-id-29 div.sk-toggleable__content {
+#sk-container-id-39 div.sk-toggleable__content {
   max-height: 0;
   max-width: 0;
   overflow: hidden;
@@ -15210,12 +15340,12 @@ clickable and can be expanded/collapsed.
   background-color: var(--sklearn-color-unfitted-level-0);
 }
 
-#sk-container-id-29 div.sk-toggleable__content.fitted {
+#sk-container-id-39 div.sk-toggleable__content.fitted {
   /* fitted */
   background-color: var(--sklearn-color-fitted-level-0);
 }
 
-#sk-container-id-29 div.sk-toggleable__content pre {
+#sk-container-id-39 div.sk-toggleable__content pre {
   margin: 0.2em;
   border-radius: 0.25em;
   color: var(--sklearn-color-text);
@@ -15223,79 +15353,79 @@ clickable and can be expanded/collapsed.
   background-color: var(--sklearn-color-unfitted-level-0);
 }
 
-#sk-container-id-29 div.sk-toggleable__content.fitted pre {
+#sk-container-id-39 div.sk-toggleable__content.fitted pre {
   /* unfitted */
   background-color: var(--sklearn-color-fitted-level-0);
 }
 
-#sk-container-id-29 input.sk-toggleable__control:checked~div.sk-toggleable__content {
+#sk-container-id-39 input.sk-toggleable__control:checked~div.sk-toggleable__content {
   /* Expand drop-down */
   max-height: 200px;
   max-width: 100%;
   overflow: auto;
 }
 
-#sk-container-id-29 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {
+#sk-container-id-39 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {
   content: "▾";
 }
 
 /* Pipeline/ColumnTransformer-specific style */
 
-#sk-container-id-29 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {
+#sk-container-id-39 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {
   color: var(--sklearn-color-text);
   background-color: var(--sklearn-color-unfitted-level-2);
 }
 
-#sk-container-id-29 div.sk-label.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {
+#sk-container-id-39 div.sk-label.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {
   background-color: var(--sklearn-color-fitted-level-2);
 }
 
 /* Estimator-specific style */
 
 /* Colorize estimator box */
-#sk-container-id-29 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {
+#sk-container-id-39 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {
   /* unfitted */
   background-color: var(--sklearn-color-unfitted-level-2);
 }
 
-#sk-container-id-29 div.sk-estimator.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {
+#sk-container-id-39 div.sk-estimator.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {
   /* fitted */
   background-color: var(--sklearn-color-fitted-level-2);
 }
 
-#sk-container-id-29 div.sk-label label.sk-toggleable__label,
-#sk-container-id-29 div.sk-label label {
+#sk-container-id-39 div.sk-label label.sk-toggleable__label,
+#sk-container-id-39 div.sk-label label {
   /* The background is the default theme color */
   color: var(--sklearn-color-text-on-default-background);
 }
 
 /* On hover, darken the color of the background */
-#sk-container-id-29 div.sk-label:hover label.sk-toggleable__label {
+#sk-container-id-39 div.sk-label:hover label.sk-toggleable__label {
   color: var(--sklearn-color-text);
   background-color: var(--sklearn-color-unfitted-level-2);
 }
 
 /* Label box, darken color on hover, fitted */
-#sk-container-id-29 div.sk-label.fitted:hover label.sk-toggleable__label.fitted {
+#sk-container-id-39 div.sk-label.fitted:hover label.sk-toggleable__label.fitted {
   color: var(--sklearn-color-text);
   background-color: var(--sklearn-color-fitted-level-2);
 }
 
 /* Estimator label */
 
-#sk-container-id-29 div.sk-label label {
+#sk-container-id-39 div.sk-label label {
   font-family: monospace;
   font-weight: bold;
   display: inline-block;
   line-height: 1.2em;
 }
 
-#sk-container-id-29 div.sk-label-container {
+#sk-container-id-39 div.sk-label-container {
   text-align: center;
 }
 
 /* Estimator-specific */
-#sk-container-id-29 div.sk-estimator {
+#sk-container-id-39 div.sk-estimator {
   font-family: monospace;
   border: 1px dotted var(--sklearn-color-border-box);
   border-radius: 0.25em;
@@ -15305,18 +15435,18 @@ clickable and can be expanded/collapsed.
   background-color: var(--sklearn-color-unfitted-level-0);
 }
 
-#sk-container-id-29 div.sk-estimator.fitted {
+#sk-container-id-39 div.sk-estimator.fitted {
   /* fitted */
   background-color: var(--sklearn-color-fitted-level-0);
 }
 
 /* on hover */
-#sk-container-id-29 div.sk-estimator:hover {
+#sk-container-id-39 div.sk-estimator:hover {
   /* unfitted */
   background-color: var(--sklearn-color-unfitted-level-2);
 }
 
-#sk-container-id-29 div.sk-estimator.fitted:hover {
+#sk-container-id-39 div.sk-estimator.fitted:hover {
   /* fitted */
   background-color: var(--sklearn-color-fitted-level-2);
 }
@@ -15403,7 +15533,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 
 /* "?"-specific style due to the `<a>` HTML tag */
 
-#sk-container-id-29 a.estimator_doc_link {
+#sk-container-id-39 a.estimator_doc_link {
   float: right;
   font-size: 1rem;
   line-height: 1em;
@@ -15418,25 +15548,25 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
   border: var(--sklearn-color-unfitted-level-1) 1pt solid;
 }
 
-#sk-container-id-29 a.estimator_doc_link.fitted {
+#sk-container-id-39 a.estimator_doc_link.fitted {
   /* fitted */
   border: var(--sklearn-color-fitted-level-1) 1pt solid;
   color: var(--sklearn-color-fitted-level-1);
 }
 
 /* On hover */
-#sk-container-id-29 a.estimator_doc_link:hover {
+#sk-container-id-39 a.estimator_doc_link:hover {
   /* unfitted */
   background-color: var(--sklearn-color-unfitted-level-3);
   color: var(--sklearn-color-background);
   text-decoration: none;
 }
 
-#sk-container-id-29 a.estimator_doc_link.fitted:hover {
+#sk-container-id-39 a.estimator_doc_link.fitted:hover {
   /* fitted */
   background-color: var(--sklearn-color-fitted-level-3);
 }
-</style><div id="sk-container-id-29" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>RandomForestClassifier()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator fitted sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-29" type="checkbox" checked><label for="sk-estimator-id-29" class="sk-toggleable__label fitted sk-toggleable__label-arrow fitted">&nbsp;&nbsp;RandomForestClassifier<a class="sk-estimator-doc-link fitted" rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.4/modules/generated/sklearn.ensemble.RandomForestClassifier.html">?<span>Documentation for RandomForestClassifier</span></a><span class="sk-estimator-doc-link fitted">i<span>Fitted</span></span></label><div class="sk-toggleable__content fitted"><pre>RandomForestClassifier()</pre></div> </div></div></div></div>
+</style><div id="sk-container-id-39" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>RandomForestClassifier()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator fitted sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-39" type="checkbox" checked><label for="sk-estimator-id-39" class="sk-toggleable__label fitted sk-toggleable__label-arrow fitted">&nbsp;&nbsp;RandomForestClassifier<a class="sk-estimator-doc-link fitted" rel="noreferrer" target="_blank" href="https://scikit-learn.org/1.4/modules/generated/sklearn.ensemble.RandomForestClassifier.html">?<span>Documentation for RandomForestClassifier</span></a><span class="sk-estimator-doc-link fitted">i<span>Fitted</span></span></label><div class="sk-toggleable__content fitted"><pre>RandomForestClassifier()</pre></div> </div></div></div></div>
 </div>
 
 </div>
@@ -15453,10 +15583,9 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_test</span> <span class="o">=</span> <span class="n">test_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">'Addiction_Class'</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>  <span class="c1"># Remove the target variable from test data</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_test</span> <span class="o">=</span> <span class="n">test_df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">'Addiction_Class'</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> 
 <span class="n">predictions</span> <span class="o">=</span> <span class="n">rf_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
 
-<span class="c1"># Optionally, print or save the predictions</span>
 <span class="n">test_df</span><span class="p">[</span><span class="s1">'Predicted_Addiction_Class'</span><span class="p">]</span> <span class="o">=</span> <span class="n">predictions</span>
 <span class="n">test_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">'test_predictions.csv'</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
@@ -15512,6 +15641,34 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><strong>Modifying the result file in readable formate</strong></p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">testP_df</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"test_predictions.csv"</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15526,6 +15683,301 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
      </div>
 </div>
 </div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">testP_df</span><span class="p">[</span><span class="s1">'Experimentation'</span><span class="p">]</span><span class="o">=</span><span class="n">testP_df</span><span class="p">[</span><span class="s1">'Experimentation'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span><span class="s2">"Yes"</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="s2">"No"</span><span class="p">})</span> 
+<span class="n">testP_df</span><span class="p">[</span><span class="s1">'Academic_Performance_Decline'</span><span class="p">]</span><span class="o">=</span><span class="n">testP_df</span><span class="p">[</span><span class="s1">'Academic_Performance_Decline'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span><span class="s2">"Yes"</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="s2">"No"</span><span class="p">})</span> 
+<span class="n">testP_df</span><span class="p">[</span><span class="s1">'Social_Isolation'</span><span class="p">]</span><span class="o">=</span><span class="n">testP_df</span><span class="p">[</span><span class="s1">'Social_Isolation'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span><span class="s2">"Yes"</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="s2">"No"</span><span class="p">})</span> 
+<span class="n">testP_df</span><span class="p">[</span><span class="s1">'Financial_Issues'</span><span class="p">]</span><span class="o">=</span><span class="n">testP_df</span><span class="p">[</span><span class="s1">'Financial_Issues'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span><span class="s2">"Yes"</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="s2">"No"</span><span class="p">})</span>  
+<span class="n">testP_df</span><span class="p">[</span><span class="s1">'Physical_Mental_Health_Problems'</span><span class="p">]</span><span class="o">=</span><span class="n">testP_df</span><span class="p">[</span><span class="s1">'Physical_Mental_Health_Problems'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span><span class="s2">"Yes"</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="s2">"No"</span><span class="p">})</span> 
+<span class="n">testP_df</span><span class="p">[</span><span class="s1">'Legal_Consequences'</span><span class="p">]</span><span class="o">=</span><span class="n">testP_df</span><span class="p">[</span><span class="s1">'Legal_Consequences'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span><span class="s2">"Yes"</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="s2">"No"</span><span class="p">})</span> 
+<span class="n">testP_df</span><span class="p">[</span><span class="s1">'Relationship_Strain'</span><span class="p">]</span><span class="o">=</span><span class="n">testP_df</span><span class="p">[</span><span class="s1">'Relationship_Strain'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span><span class="s2">"Yes"</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="s2">"No"</span><span class="p">})</span> 
+<span class="n">testP_df</span><span class="p">[</span><span class="s1">'Risk_Taking_Behavior'</span><span class="p">]</span><span class="o">=</span><span class="n">testP_df</span><span class="p">[</span><span class="s1">'Risk_Taking_Behavior'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span><span class="s2">"Yes"</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="s2">"No"</span><span class="p">})</span> 
+<span class="n">testP_df</span><span class="p">[</span><span class="s1">'Withdrawal_Symptoms'</span><span class="p">]</span><span class="o">=</span><span class="n">testP_df</span><span class="p">[</span><span class="s1">'Withdrawal_Symptoms'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span><span class="s2">"Yes"</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="s2">"No"</span><span class="p">})</span> 
+<span class="n">testP_df</span><span class="p">[</span><span class="s1">'Denial_and_Resistance_to_Treatment'</span><span class="p">]</span><span class="o">=</span><span class="n">testP_df</span><span class="p">[</span><span class="s1">'Denial_and_Resistance_to_Treatment'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span><span class="s2">"Yes"</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="s2">"No"</span><span class="p">})</span> 
+<span class="n">testP_df</span><span class="p">[</span><span class="s1">'Addiction_Class'</span><span class="p">]</span><span class="o">=</span><span class="n">testP_df</span><span class="p">[</span><span class="s1">'Addiction_Class'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span><span class="s2">"Yes"</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="s2">"No"</span><span class="p">})</span> 
+<span class="n">testP_df</span><span class="p">[</span><span class="s1">'Predicted_Addiction_Class'</span><span class="p">]</span><span class="o">=</span><span class="n">testP_df</span><span class="p">[</span><span class="s1">'Predicted_Addiction_Class'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="mi">1</span><span class="p">:</span><span class="s2">"Yes"</span><span class="p">,</span><span class="mi">0</span><span class="p">:</span><span class="s2">"No"</span><span class="p">})</span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">testP_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"test_predictions.csv"</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test_df</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Experimentation</th>
+      <th>Academic_Performance_Decline</th>
+      <th>Social_Isolation</th>
+      <th>Financial_Issues</th>
+      <th>Physical_Mental_Health_Problems</th>
+      <th>Legal_Consequences</th>
+      <th>Relationship_Strain</th>
+      <th>Risk_Taking_Behavior</th>
+      <th>Withdrawal_Symptoms</th>
+      <th>Denial_and_Resistance_to_Treatment</th>
+      <th>Addiction_Class</th>
+      <th>Predicted_Addiction_Class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>12739</th>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>12740</th>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>12741</th>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>12742</th>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>12743</th>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>12744 rows × 12 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
